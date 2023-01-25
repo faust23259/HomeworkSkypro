@@ -56,6 +56,10 @@
     color: #FFFFFF;
     border: none;
     margin-top: 44px;
+
+    &:hover {
+        cursor: url('img/cursor.svg'), pointer;
+    }
 }
 
 .product {
@@ -69,6 +73,17 @@
 
 .product__box {
     position: relative;
+}
+
+.product__link:hover {
+    cursor: url('img/cursor.svg'), pointer;
+
+}
+
+.product__image:hover {
+
+    box-shadow: 0 0 0 3px #44D2FF;
+    border-radius: 16px;
 }
 
 .product__text {
