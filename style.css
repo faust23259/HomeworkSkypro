@@ -94,6 +94,47 @@
   color: #FFFFFF;
 }
 
+.game {
+  background-color: #000915;
+}
+.game__season {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 233px;
+  padding-top: 233px;
+  align-items: center;
+}
+.game__info {
+  display: flex;
+  flex-direction: column;
+}
+.game__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.game__text {
+  width: 584px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+.game__btn {
+  width: 234.06px;
+  height: 48.6px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .center {
     padding-left: 32px;
@@ -111,6 +152,26 @@
   }
   .product {
     justify-content: center;
+  }
+  .game__season {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .game__info {
+    margin-bottom: 62px;
+  }
+  .game__title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game__text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .game__btn {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (min-width: 375px) and (max-width: 768px) {
@@ -157,5 +218,32 @@
   .product__image {
     width: 343px;
     height: 300px;
+  }
+  .game__season {
+    flex-direction: column;
+    padding-top: 51px;
+  }
+  .game__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+  }
+  .game__text {
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game__img {
+    width: 344px;
+    height: 236px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game__btn {
+    margin: 32px auto 64px auto;
   }
 }/*# sourceMappingURL=style.css.map */

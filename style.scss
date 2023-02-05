@@ -97,4 +97,54 @@
     color: #FFFFFF;
 }
 
+.game {
+    background-color: #000915;
+
+    &__season {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 233px;
+        padding-top: 233px;
+        align-items: center;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        width: 584px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-top: 32px;
+    }
+
+    &__btn {
+        width: 234.06px;
+        height: 48.6px;
+        background: #9C0332;
+        border-radius: 30px;
+        border: none;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 32px;
+
+    }
+
+
+}
+
 @import 'mobile';
