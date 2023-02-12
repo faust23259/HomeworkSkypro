@@ -21,6 +21,11 @@
         justify-content: center;
     }
 
+    .game .revert {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
     .game {
         &__season {
             flex-wrap: wrap;
@@ -114,7 +119,7 @@
         &__season {
             flex-direction: column;
             padding-top: 51px;
-
+            padding-bottom: 81px;
         }
 
         &__title {
@@ -144,6 +149,10 @@
             margin: 32px auto 64px auto;
         }
 
+        .revert {
+            display: flex;
+            flex-direction: column-reverse;
+        }
 
     }
 }

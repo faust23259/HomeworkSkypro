@@ -134,6 +134,14 @@
   color: #FFFFFF;
   margin-top: 32px;
 }
+.game__btn:hover {
+  cursor: url("img/cursor.svg"), pointer;
+}
+.game .revert {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .center {
@@ -152,6 +160,10 @@
   }
   .product {
     justify-content: center;
+  }
+  .game .revert {
+    justify-content: center;
+    flex-direction: column-reverse;
   }
   .game__season {
     flex-wrap: wrap;
@@ -222,6 +234,7 @@
   .game__season {
     flex-direction: column;
     padding-top: 51px;
+    padding-bottom: 81px;
   }
   .game__title {
     text-align: center;
@@ -245,5 +258,9 @@
   }
   .game__btn {
     margin: 32px auto 64px auto;
+  }
+  .game .revert {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }/*# sourceMappingURL=style.css.map */
