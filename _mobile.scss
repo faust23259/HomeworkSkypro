@@ -21,6 +21,40 @@
         justify-content: center;
     }
 
+    .game .revert {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .game {
+        &__season {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__info {
+            margin-bottom: 62px;
+        }
+
+        &__title {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__text {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        &__btn {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+    }
+
 }
 
 
@@ -77,6 +111,47 @@
         &__image {
             width: 343px;
             height: 300px;
+        }
+
+    }
+
+    .game {
+        &__season {
+            flex-direction: column;
+            padding-top: 51px;
+            padding-bottom: 81px;
+        }
+
+        &__title {
+            text-align: center;
+            font-size: 32px;
+            line-height: 39px;
+            padding-top: 51px;
+        }
+
+        &__text {
+            width: 300px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__img {
+            width: 344px;
+            height: 236px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__btn {
+            margin: 32px auto 64px auto;
+        }
+
+        .revert {
+            display: flex;
+            flex-direction: column-reverse;
         }
 
     }
